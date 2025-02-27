@@ -1,0 +1,282 @@
+@import "tailwindcss";
+
+a, button{
+  cursor: pointer;
+}
+
+
+/* Default (Light Theme) */
+:root {
+  --bg-color: #fdf1f7;
+  --text-color: #53152d;
+  --primary-color: #ee3a8c;
+  --secondary-color: #ff7eb6;
+  --accent-color: #ffb3b3;
+  }
+
+  .light{
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --primary-color: #3b82f6;
+    --secondary-color: #10b981;
+    --accent-color: #f59e0b;
+  }
+
+  /* Dark Theme */
+  .dark {
+    --bg-color: #1f2937;
+    --text-color: #f9fafb;
+    --primary-color: #2563eb;
+    --secondary-color: #9333ea;
+    --accent-color: #eab308;
+  }
+  
+  /* Cupcake */
+  .cupcake {
+    --bg-color: #fdf1f7;
+    --text-color: #53152d;
+    --primary-color: #ee3a8c;
+    --secondary-color: #ff7eb6;
+    --accent-color: #ffb3b3;
+  }
+  
+  /* Bumblebee */
+  .bumblebee {
+    --bg-color: #fef3c7;
+    --text-color: #78350f;
+    --primary-color: #f59e0b;
+    --secondary-color: #d97706;
+    --accent-color: #ea580c;
+  }
+  
+  /* Emerald */
+  .emerald {
+    --bg-color: #d1fae5;
+    --text-color: #065f46;
+    --primary-color: #10b981;
+    --secondary-color: #34d399;
+    --accent-color: #6ee7b7;
+  }
+  
+  /* Corporate */
+  .corporate {
+    --bg-color: #f3f4f6;
+    --text-color: #1e293b;
+    --primary-color: #2563eb;
+    --secondary-color: #64748b;
+    --accent-color: #d1d5db;
+  }
+  
+  /* Synthwave */
+  .synthwave {
+    --bg-color: #2d0634;
+    --text-color: #ff3d81;
+    --primary-color: #ff00ff;
+    --secondary-color: #3a0088;
+    --accent-color: #ff9100;
+  }
+  
+  /* Retro */
+  .retro {
+    --bg-color: #fdf6e3;
+    --text-color: #6b4226;
+    --primary-color: #f4a261;
+    --secondary-color: #d3a710;
+    --accent-color: #2d6a4f;
+  }
+  
+  /* Cyberpunk */
+  .cyberpunk {
+    --bg-color: #ffff00;
+    --text-color: #222222;
+    --primary-color: #ff4500;
+    --secondary-color: #007acc;
+    --accent-color: #ffcc00
+  }
+  
+  /* Valentine */
+  .valentine {
+    --bg-color: #ffe4e6;
+    --text-color: #9d174d;
+    --primary-color: #ec4899;
+    --secondary-color: #d946ef;
+    --accent-color: #f43f5e;
+  }
+  
+  /* Halloween */
+  .halloween {
+    --bg-color: #1a202c;
+    --text-color: #FFC107;
+    --primary-color: #ff6200;
+    --secondary-color: #ff0000;
+    --accent-color: #820000;
+  }
+  
+  /* Garden */
+  .garden {
+    --bg-color: #dcfce7;
+    --text-color: #065f46;
+    --primary-color: #16a34a;
+    --secondary-color: #22c55e;
+    --accent-color: #a7f3d0;
+  }
+  
+  /* Forest */
+  .forest {
+    --bg-color: #1b4332;
+    --text-color: #d8f3dc;
+    --primary-color: #52b788;
+    --secondary-color: #40916c;
+    --accent-color: #2d6a4f;
+  }
+  
+  /* Aqua */
+  .aqua {
+    --bg-color: #e0f2fe;
+    --text-color: #0284c7;
+    --primary-color: #06b6d4;
+    --secondary-color: #0891b2;
+    --accent-color: #38bdf8;
+  }
+  
+  /* Lofi */
+  .lofi {
+    --bg-color: #ffffff;
+    --text-color: #1f2937;
+    --primary-color: #e5e7eb;
+    --secondary-color: #d1d5db;
+    --accent-color: #9ca3af;
+  }
+  
+  /* Pastel */
+  .pastel {
+    --bg-color: #ffedd5;
+    --text-color: #78350f;
+    --primary-color: #fbbf24;
+    --secondary-color: #f59e0b;
+    --accent-color: #d97706;
+  }
+  
+  /* Fantasy */
+  .fantasy {
+    --bg-color: #f3e8ff;
+    --text-color: #7c3aed;
+    --primary-color: #a78bfa;
+    --secondary-color: #8b5cf6;
+    --accent-color: #f43f5e;
+  }
+  
+  /* Wireframe */
+  .wireframe {
+    --bg-color: #e5e7eb;
+    --text-color: #1f2937;
+    --primary-color: #d1d5db;
+    --secondary-color: #9ca3af;
+    --accent-color: #6b7280;
+  }
+  
+  /* Black */
+  .black {
+    --bg-color: #000000;
+    --text-color: #ffffff;
+    --primary-color: #1f2937;
+    --secondary-color: #4b5563;
+    --accent-color: #6b7280;
+  }
+  
+  /* Luxury */
+  .luxury {
+    --bg-color: #1c1917;
+    --text-color: #facc15;
+    --primary-color: #d97706;
+    --secondary-color: #a16207;
+    --accent-color: #854d0e;
+  }
+  
+  /* Dracula */
+  .dracula {
+    --bg-color: #282a36;
+    --text-color: #f8f8f2;
+    --primary-color: #ff79c6;
+    --secondary-color: #bd93f9;
+    --accent-color: #ffb86c;
+  }
+  
+  /* CMYK */
+  .cmyk {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --primary-color: #00ffff;
+    --secondary-color: #ff00ff;
+    --accent-color: #ffff00;
+  }
+  
+  /* Autumn */
+  .autumn {
+    --bg-color: #ffedd5;
+    --text-color: #7c2d12;
+    --primary-color: #f97316;
+    --secondary-color: #ea580c;
+    --accent-color: #b45309;
+  }
+  
+  /* Business */
+  .business {
+    --bg-color: #ffffff;
+    --text-color: #1e293b;
+    --primary-color: #3b82f6;
+    --secondary-color: #64748b;
+    --accent-color: #d1d5db;
+  }
+  
+  /* Acid */
+  .acid {
+    --bg-color: #ffff00;
+    --text-color: #ff0000;
+    --primary-color: #ff00ff;
+    --secondary-color: #00ff00;
+    --accent-color: #0000ff;
+  }
+  
+  /* Lemonade */
+  .lemonade {
+    --bg-color: #fef9c3;
+    --text-color: #a16207;
+    --primary-color: #facc15;
+    --secondary-color: #fbbf24;
+    --accent-color: #d97706;
+  }
+  
+  /* Night */
+  .night {
+    --bg-color: #111827;
+    --text-color: #e5e7eb;
+    --primary-color: #2563eb;
+    --secondary-color: #9333ea;
+    --accent-color: #eab308;
+  }
+  
+  /* Coffee */
+  .coffee {
+    --bg-color: #6b4226;
+    --text-color: #ffedd5;
+    --primary-color: #d97706;
+    --secondary-color: #a16207;
+    --accent-color: #854d0e;
+  }
+  
+  /* Winter */
+  .winter {
+    --bg-color: #f0f9ff;
+    --text-color: #1e3a8a;
+    --primary-color: #38bdf8;
+    --secondary-color: #0284c7;
+    --accent-color: #0ea5e9;
+  }
+
+  /* Apply Variables */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
